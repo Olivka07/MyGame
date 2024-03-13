@@ -5,10 +5,11 @@ import { AsyncThemePage } from '../pages/ThemePage/AsyncThemePage';
 import { AsyncQuestionPage } from '../pages/QuestionPage/AsyncQuestionPage';
 
 const App = () => {
+    console.log('Хай');
     return (
         <Routes>
-            <Route path='/' element={<AsyncThemePage />} />
             <Route path='/question/:ids' element={<AsyncQuestionPage />} />
+            <Route path='*' element={<AsyncThemePage />} />
         </Routes>
     );
 };
