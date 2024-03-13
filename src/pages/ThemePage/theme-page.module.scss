@@ -1,0 +1,10 @@
+.grid-theme {
+    display: grid;
+    grid-template-columns: 20% 70%;
+    row-gap: 20px;
+    align-items: center;
+}
+
+.theme-title {
+    justify-self: center;
+}

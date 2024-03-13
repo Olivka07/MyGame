@@ -1,0 +1,22 @@
+.big-text {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+@media (min-width: 1200px) {
+    .big-text {
+        font-size: 40px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .big-text {
+        font-size: 68px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .big-text {
+        font-size: 78px;
+    }
+}

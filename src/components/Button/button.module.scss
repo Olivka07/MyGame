@@ -1,0 +1,29 @@
+.btn {
+    font: var(--font-m);
+    background-color: whitesmoke;
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.btn:hover {
+    cursor: pointer;
+    background-color: rgb(203, 224, 244);
+}
+
+@media (min-width: 1200px) {
+    .btn {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 1400px) {
+    .btn {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 1700px) {
+    .btn {
+        font-size: 43px;
+    }
+}

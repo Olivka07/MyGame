@@ -1,0 +1,30 @@
+@import './styles/variables/global.scss';
+
+* {
+    text-decoration: none;
+    color: black;
+}
+
+body {
+    font: var(--font-m);
+    font-weight: 900;
+    padding: 20px;
+}
+
+@media (min-width: 1200px) {
+    body {
+        font: var(--font-l);
+    }
+}
+
+@media (min-width: 1400px) {
+    body {
+        font: var(--font-xl);
+    }
+}
+
+@media (min-width: 1700px) {
+    body {
+        font: var(--font-xxl);
+    }
+}
